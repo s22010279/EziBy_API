@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34616.47
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EziBy_Core_ClassLibrary", "EziBy_Core_ClassLibrary\EziBy_Core_ClassLibrary.csproj", "{29198BDD-896B-4598-A6A5-7FF32C8C4377}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EziBy_Core_WebAPI", "EziBy_Core_WebAPI\EziBy_Core_WebAPI.csproj", "{1C74F222-2680-4B0E-996D-3A83572D7FE3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{29198BDD-896B-4598-A6A5-7FF32C8C4377}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{29198BDD-896B-4598-A6A5-7FF32C8C4377}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{29198BDD-896B-4598-A6A5-7FF32C8C4377}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{29198BDD-896B-4598-A6A5-7FF32C8C4377}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1C74F222-2680-4B0E-996D-3A83572D7FE3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1C74F222-2680-4B0E-996D-3A83572D7FE3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1C74F222-2680-4B0E-996D-3A83572D7FE3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1C74F222-2680-4B0E-996D-3A83572D7FE3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {342A42B3-F8AC-4E47-A13D-598E55C6668E}
+	EndGlobalSection
+EndGlobal
