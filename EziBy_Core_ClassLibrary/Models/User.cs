@@ -7,7 +7,7 @@
         public string UserName { get; set; } = string.Empty;
         public string Password { get; set; } = string.Empty;
         public string UserFullName { get; set; } = string.Empty;
-        public bool Active { get; set; }
+        public bool Active { get; set; } = true;
         public string Remarks { get; set; } = string.Empty;
     }
 }
