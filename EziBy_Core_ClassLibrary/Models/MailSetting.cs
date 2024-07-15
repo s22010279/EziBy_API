@@ -1,6 +1,6 @@
 ﻿namespace EziBy_Core_ClassLibrary.Models
 {
-    internal class MailSetting
+    public class MailSetting
     {
         public int MailSettingId { get; set; }
         public int BranchId { get; set; }
