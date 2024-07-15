@@ -1,6 +1,6 @@
 ﻿namespace EziBy_Core_ClassLibrary.Models
 {
-    internal class DeliveryTime
+    public class DeliveryTime
     {
         public int DeliveryTimeId { get; set; }
         public string DeliveryTimeName { get; set; }
