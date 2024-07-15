@@ -1,6 +1,6 @@
 ﻿namespace EziBy_Core_ClassLibrary.Models
 {
-    internal class CustomerPaymentMain
+    public class CustomerPaymentMain
     {
         public int CustomerPaymentMainId { get; set; }//auto number
         public DateTime PaymentDate { get; set; }
