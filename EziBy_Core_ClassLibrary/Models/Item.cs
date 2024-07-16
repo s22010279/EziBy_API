@@ -3,13 +3,13 @@
     public partial class Item
     {
         public int ItemId { get; set; }
-        public string ItemName { get; set; }
-        public string Specification { get; set; }
-        public string SKUBarcode { get; set; }
-        public string Dimension { get; set; }
-        public string ItemImage1 { get; set; }
-        public string ItemImage2 { get; set; }
-        public string ItemImage3 { get; set; }
+        public string ItemName { get; set; } = string.Empty;
+        public string Specification { get; set; } = string.Empty;
+        public string SKUBarcode { get; set; } = string.Empty;
+        public string Dimension { get; set; } = string.Empty;
+        public string ItemImage1 { get; set; } = string.Empty;
+        public string ItemImage2 { get; set; } = string.Empty;
+        public string ItemImage3 { get; set; } = string.Empty;
 
         public int BrandId { get; set; }
         public int CategoryId { get; set; }

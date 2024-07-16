@@ -4,8 +4,8 @@
     {
         public int SubCategoryId { get; set; }
         public int CategoryId { get; set; }
-        public string SubCategoryName { get; set; }
-        public string SubCategoryImage { get; set; }
+        public string SubCategoryName { get; set; } = string.Empty;
+        public string SubCategoryImage { get; set; } = string.Empty;
         public int DisplayOrder { get; set; }
         public bool Active { get; set; }
     }
