@@ -8,5 +8,8 @@
         public int DisplayOrder { get; set; }
         public bool Active { get; set; }
         public bool DisplayableInMobileApp { get; set; }
+
+        //references
+        public virtual ICollection<Item> Items { get; set; }
     }
 }

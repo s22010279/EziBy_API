@@ -7,5 +7,8 @@
         public decimal DeliveryCharge { get; set; }
         public int DisplayOrder { get; set; }
         public bool Active { get; set; }
+
+        //references
+        public virtual ICollection<MobileOrderMain> MobileOrderMains { get; set; }
     }
 }

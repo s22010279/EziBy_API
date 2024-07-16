@@ -7,5 +7,9 @@
         public string Address { get; set; } = string.Empty;
         public string Mobile { get; set; } = string.Empty;
         public bool Active { get; set; }
+
+        //references
+        public virtual ICollection<GrnMain> GrnMains { get; set; }
+        public virtual ICollection<SupplierPaymentMain> SupplierPaymentMains { get; set; }
     }
 }
