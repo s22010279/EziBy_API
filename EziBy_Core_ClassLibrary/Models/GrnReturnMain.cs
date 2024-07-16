@@ -6,7 +6,7 @@
         public int GrnMainId { get; set; }//ref
         public DateTime GrnReturnDate { get; set; }
 
-        public string Remarks { get; set; }
+        public string Remarks { get; set; } = string.Empty;
 
         public decimal AdditionAmount { get; set; }
         public decimal DeductionAmount { get; set; }

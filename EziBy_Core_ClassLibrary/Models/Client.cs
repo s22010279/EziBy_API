@@ -4,15 +4,15 @@
     {
         public int ClientId { get; set; }
         public bool IsGuestMode { get; set; }
-        public string EmailAddress { get; set; }
-        public string GuestId { get; set; }
-        public string FullName { get; set; }
-        public string PhoneNumber { get; set; }
+        public string EmailAddress { get; set; } = string.Empty;
+        public string GuestId { get; set; } = string.Empty;
+        public string FullName { get; set; } = string.Empty;
+        public string PhoneNumber { get; set; } = string.Empty;
         public bool PhoneVerified { get; set; } = false;
         public bool EmailVerified { get; set; } = false;
         public bool SubscribedForNewsLetters { get; set; }
         public bool Suspended { get; set; } = false;
-        public string SuspendedReason { get; set; }
+        public string SuspendedReason { get; set; } = string.Empty;
         public DateTime DateCreated { get; set; }
         public DateTime DateLastLogged { get; set; }
     }

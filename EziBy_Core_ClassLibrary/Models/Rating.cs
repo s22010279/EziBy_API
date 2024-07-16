@@ -7,7 +7,7 @@
         public int ItemPriceVariantId { get; set; }
         public int ClientId { get; set; }
         public int RatingStar { get; set; }
-        public string RatingReview { get; set; }
+        public string RatingReview { get; set; } = string.Empty;
         public bool Active { get; set; }
     }
 }

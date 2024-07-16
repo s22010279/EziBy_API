@@ -3,10 +3,10 @@
     public class PosReturnMain
     {
         public int PosReturnMainId { get; set; }
-        public string PosReturnGUID { get; set; }
+        public string PosReturnGUID { get; set; } = string.Empty;
         public int PosMainId { get; set; }
         public DateTime PosReturnDate { get; set; }
-        public string Reason { get; set; }
+        public string Reason { get; set; } = string.Empty;
         public decimal GrossAmount { get; set; }
         public decimal AdditionAmount { get; set; }
         public decimal DeductionAmount { get; set; }

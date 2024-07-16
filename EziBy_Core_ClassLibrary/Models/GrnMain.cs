@@ -5,9 +5,9 @@
         public int GrnMainId { get; set; }
         public DateTime GrnDate { get; set; }
         public int SupplierId { get; set; }//ref
-        public string SupplierInvoiceNo { get; set; }
+        public string SupplierInvoiceNo { get; set; } = string.Empty;
         public DateTime SupplierInvoiceDate { get; set; }
-        public string Remarks { get; set; }
+        public string Remarks { get; set; } = string.Empty;
         public decimal GrossAmount { get; set; }
         public decimal DiscountPercent { get; set; }
         public decimal DiscountAmount { get; set; }
