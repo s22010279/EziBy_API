@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace EziBy_Core_ClassLibrary.Models
 {
-    public class CustomerPointRedeemp
+    public class CustomerPointRedeem
     {
         public int RedeepmedId { get; set; }
         public int CustomerId { get; set; }
