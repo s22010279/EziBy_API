@@ -1,6 +1,6 @@
 ﻿namespace EziBy_Core_ClassLibrary.Models
 {
-    public class PosSub
+    public partial class PosSub
     {
         public int PosSubId { get; set; }
         public int PosMainId { get; set; }

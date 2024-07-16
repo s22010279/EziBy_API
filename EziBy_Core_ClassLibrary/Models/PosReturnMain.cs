@@ -18,5 +18,12 @@
         public DateTime Prepared_Date { get; set; }
         public int Modified_UserId { get; set; }
         public DateTime Modified_Date { get; set; }
+
+
+        //referances 
+        public virtual PosMain PosMain { get; set; }
+        public virtual ICollection<PosReturnSub> PosReturnSubs { get; set; }
+        public virtual User User { get; set; }
+        public virtual User User1 { get; set; }
     }
 }

@@ -1,6 +1,6 @@
 ﻿namespace EziBy_Core_ClassLibrary.Models
 {
-    public class CarouselImage
+    public partial class CarouselImage
     {
         public int CarouselId { get; set; }
         public string CarouselDetails { get; set; } = string.Empty;
