@@ -24,5 +24,11 @@
         public int Modified_UserId { get; set; }
         public DateTime Modified_Date { get; set; }
 
+        //references
+        public virtual Supplier Supplier { get; set; }
+        public virtual User User { get; set; }
+        public virtual User User1 { get; set; } //for 2nd foreign key ref
+        public virtual ICollection<SupplierPaymentSub> SupplierPaymentSubs { get; set; }
+
     }
 }

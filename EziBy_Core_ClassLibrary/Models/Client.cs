@@ -15,5 +15,12 @@
         public string SuspendedReason { get; set; } = string.Empty;
         public DateTime DateCreated { get; set; }
         public DateTime DateLastLogged { get; set; }
+
+        //reference
+        public virtual ICollection<Rating> Ratings { get; set; }
+        public virtual ICollection<MobileOrderMain> MobileOrderMains { get; set; }
+        public virtual ICollection<ShoppingCart> ShoppingCarts { get; set; }
+        public virtual ICollection<ViewedItem> ViewedItems { get; set; }
+        public virtual ICollection<WishList> WishLists { get; set; }
     }
 }

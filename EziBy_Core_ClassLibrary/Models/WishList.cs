@@ -9,5 +9,10 @@
         public int Quantity { get; set; }
         public DateTime DateCreated { get; set; }
         public DateTime DateUpdated { get; set; }
+
+        //references
+        public virtual Client Client { get; set; }
+        public virtual Item Item { get; set; }
+        public virtual ItemPriceVariant ItemPriceVariant { get; set; }
     }
 }
