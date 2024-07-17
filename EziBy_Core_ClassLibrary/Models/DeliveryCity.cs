@@ -10,7 +10,7 @@
         public bool Active { get; set; }
 
         //references
-        public virtual ICollection<MobileOrderMain> MobileOrderMains { get; set; }
+        public virtual ICollection<MobileOrderMain> MobileOrderMains { get; set; } = new List<MobileOrderMain>();
         public virtual Branch? Branch { get; set; }
     }
 }
