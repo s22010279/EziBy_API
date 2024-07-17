@@ -35,5 +35,6 @@ public partial class Setup
 
     public string CyrstalReportPath { get; set; } = string.Empty;
 
+    //reference
     public virtual Branch? Branch { get; set; }
 }

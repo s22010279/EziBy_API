@@ -3,6 +3,7 @@
     public class PosReturnMain
     {
         public int PosReturnMainId { get; set; }
+        public int BranchId { get; set; }
         public string PosReturnGUID { get; set; } = string.Empty;
         public int PosMainId { get; set; }
         public DateTime PosReturnDate { get; set; }
@@ -20,10 +21,11 @@
         public DateTime Modified_Date { get; set; }
 
 
-        //referances 
-        public virtual PosMain PosMain { get; set; }
-        public virtual ICollection<PosReturnSub> PosReturnSubs { get; set; }
-        public virtual User User { get; set; }
-        public virtual User User1 { get; set; }
+        //ref 
+        public virtual PosMain? PosMain { get; set; }
+        public virtual ICollection<PosReturnSub> PosReturnSubs { get; set; } = new List<PosReturnSub>();
+        public virtual User? User { get; set; }
+        public virtual User? User1 { get; set; }
+        public virtual Branch? Branch { get; set; }
     }
 }

@@ -14,5 +14,8 @@
         public string UnsubscribeLink { get; set; } = string.Empty;
         public bool Active { get; set; }
 
+        //references
+        public virtual Branch? Branch { get; set; }
+
     }
 }

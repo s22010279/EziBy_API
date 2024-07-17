@@ -3,6 +3,7 @@
     public class Brand
     {
         public int BrandId { get; set; }
+        public int BranchId { get; set; }
         public string BrandName { get; set; } = string.Empty;
         public string BrandImage { get; set; } = string.Empty;
         public int DisplayOrder { get; set; }
@@ -10,6 +11,7 @@
         public bool DisplayableInMobileApp { get; set; }
 
         //references
-        public virtual ICollection<Item> Items { get; set; }
+        public virtual ICollection<Item> Items { get; set; } = new List<Item>();
+        public virtual Branch? Branch { get; set; }
     }
 }

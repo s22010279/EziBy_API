@@ -3,6 +3,7 @@
     public partial class PosMain
     {
         public int PosMainId { get; set; }
+        public int BranchId { get; set; }
         public string PosGUID { get; set; } = string.Empty;
         public DateTime PosDate { get; set; }
         public int CustomerId { get; set; }
@@ -28,12 +29,13 @@
 
 
         //references
-        public virtual Customer Customer { get; set; }
-        public virtual User User { get; set; }
-        public virtual User User1 { get; set; } //for 2nd foreign key ref
-        public virtual ICollection<PosSub> PosSubs { get; set; }
-        public virtual ICollection<PosReturnMain> PosReturnMains { get; set; }
-        public virtual ICollection<PosReturnSub> PosReturnSubs { get; set; }
-        public virtual ICollection<CustomerPaymentSub> CustomerPaymentSubs { get; set; }
+        public virtual Customer? Customer { get; set; }
+        public virtual User? User { get; set; }
+        public virtual User? User1 { get; set; } //for 2nd foreign key ref
+        public virtual ICollection<PosSub> PosSubs { get; set; } = new List<PosSub>();
+        public virtual ICollection<PosReturnMain> PosReturnMains { get; set; } = new List<PosReturnMain>();
+        public virtual ICollection<PosReturnSub> PosReturnSubs { get; set; } = new List<PosReturnSub>();
+        public virtual ICollection<CustomerPaymentSub> CustomerPaymentSubs { get; set; } = new List<CustomerPaymentSub>();
+        public virtual Branch? Branch { get; set; }
     }
 }
