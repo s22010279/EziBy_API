@@ -3,6 +3,7 @@
     public class SupplierPaymentMain
     {
         public int SupplierPaymentMainId { get; set; }
+        public int BranchId { get; set; }
         public DateTime PaymentDate { get; set; }
         public int SupplierId { get; set; }
         public bool Cancelled { get; set; }
@@ -25,10 +26,11 @@
         public DateTime Modified_Date { get; set; }
 
         //references
-        public virtual Supplier Supplier { get; set; }
-        public virtual User User { get; set; }
-        public virtual User User1 { get; set; } //for 2nd foreign key ref
-        public virtual ICollection<SupplierPaymentSub> SupplierPaymentSubs { get; set; }
+        public virtual Supplier? Supplier { get; set; }
+        public virtual User? User { get; set; }
+        public virtual User? User1 { get; set; } //for 2nd foreign key ref
+        public virtual ICollection<SupplierPaymentSub> SupplierPaymentSubs { get; set; } = new List<SupplierPaymentSub>();
+        public virtual Branch? Branch { get; set; }
 
     }
 }
