@@ -25,5 +25,15 @@
         public DateTime Prepared_Date { get; set; }
         public int Modified_UserId { get; set; }
         public DateTime Modified_Date { get; set; }
+
+
+        //references
+        public virtual Customer Customer { get; set; }
+        public virtual User User { get; set; }
+        public virtual User User1 { get; set; } //for 2nd foreign key ref
+        public virtual ICollection<PosSub> PosSubs { get; set; }
+        public virtual ICollection<PosReturnMain> PosReturnMains { get; set; }
+        public virtual ICollection<PosReturnSub> PosReturnSubs { get; set; }
+        public virtual ICollection<CustomerPaymentSub> CustomerPaymentSubs { get; set; }
     }
 }
