@@ -22,6 +22,7 @@ public partial class Setup
     public string ItemsImageUri { get; set; } = string.Empty;
     public string BrandImageUri { get; set; } = string.Empty;
     public string SocialMediaUri { get; set; } = string.Empty;
+    public string AdvertisementImageUri { get; set; } = string.Empty;
     public string OtherImageUri { get; set; } = string.Empty;
     public string TermsAndConditionsUri { get; set; } = string.Empty;
     public string PrivacyPolicyUri { get; set; } = string.Empty;
@@ -33,7 +34,7 @@ public partial class Setup
     public bool AllowDiscountInPOS { get; set; }
     public bool Active { get; set; }
 
-    public string CyrstalReportPath { get; set; } = string.Empty;
+    public string CrystalReportPath { get; set; } = string.Empty;
 
     //reference
     public virtual Branch? Branch { get; set; }
