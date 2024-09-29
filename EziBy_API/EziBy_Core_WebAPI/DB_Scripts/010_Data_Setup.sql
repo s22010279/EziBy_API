@@ -21,11 +21,12 @@ INSERT INTO [dbo].[Setups](
 ,[OurServicesUri]
 ,[ContactUsUri]
 ,[AboutUsUri]
+,[AdvertisementImageUri]
 ,[ServerMappedImagePath]
 ,[NewOrderRefreshInterval]
 ,[AllowDiscountInPOS]
 ,[Active]
-,[CyrstalReportPath])
+,[CrystalReportPath])
 VALUES (
  1	
 ,'Rs.'	
@@ -49,6 +50,7 @@ VALUES (
 ,'https://ousl.eziby.lk/Home/OurServices'	
 ,'https://ousl.eziby.lk/Home/contactus'	
 ,'https://ousl.eziby.lk/Home/AboutUs'	
+,''
 ,'C:/Inetpub/vhosts/eziby.lk/'	
 ,1	
 ,1	
