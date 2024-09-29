@@ -12,8 +12,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace EziBy_Core_WebAPI.Migrations
 {
     [DbContext(typeof(EziByDbContext))]
-    [Migration("20240725033155_full-db")]
-    partial class fulldb
+    [Migration("20240929025622_initial")]
+    partial class initial
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
