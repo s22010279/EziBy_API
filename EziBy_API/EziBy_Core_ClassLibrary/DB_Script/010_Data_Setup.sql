@@ -25,7 +25,7 @@ INSERT INTO [dbo].[Setups](
 ,[NewOrderRefreshInterval]
 ,[AllowDiscountInPOS]
 ,[Active]
-,[CyrstalReportPath])
+,[CrystalReportPath])
 VALUES (
  1	
 ,'Rs.'	

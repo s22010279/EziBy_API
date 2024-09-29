@@ -1,0 +1,10 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/EziBy_Core_WebAPI/obj/Debug/net8.0
+/EziBy_Core_ClassLibrary/obj/Debug/net8.0
+/EziBy_Core_ClassLibrary/obj
+/EziBy_Core_WebAPI/obj
+/.vs/git/v17/DocumentLayout.backup.json
+/.vs/EziBy_Core_Solution/FileContentIndex/2ce667e2-402d-44f8-9b38-df57e4adcfae.vsidx
