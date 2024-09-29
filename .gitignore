@@ -1,0 +1,8 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/EziBy_Core_WebAPI/obj/Debug/net8.0
+/EziBy_Core_ClassLibrary/obj/Debug/net8.0
+/EziBy_Core_ClassLibrary/obj
+/EziBy_Core_WebAPI/obj
